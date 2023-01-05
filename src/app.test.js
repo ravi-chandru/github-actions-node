@@ -9,7 +9,7 @@ describe('test-api-endpoint', () => {
     it('test-get-/', async () => {
 
         const  response = await request.get('/');
-        expect(response.status).toBe(400)
+        expect(response.status).toBe(200)
 
     })
 
